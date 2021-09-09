@@ -1,0 +1,118 @@
+.App {
+    margin: 0px;
+    padding: 10px 10%;
+    display: flex;
+    flex-direction: row;
+    min-height: calc(100vh - 20px);
+    height: auto;
+    background-color: #e5e5e5;
+}
+.frst-rw {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    min-width: 250px;
+    color: white;
+    background-color: #778899;
+}
+
+.frst-rw ul {
+    list-style: disc outside;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.frst-rw ul li::marker {
+    color: black;
+}
+
+.frst-rw span {
+    color: bisque;
+    text-decoration: underline;
+}
+
+.scnd-rw {
+    padding: 0 20px;
+    flex-basis: 70%;
+    border-left: none;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+.scnd-rw p {
+    text-align: justify;
+    border-bottom: 1px dashed #77889969;
+}
+
+[class^="box-"] {
+    padding: 20px 0 0 20px;
+}
+
+[class^="box-"] h3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: black;
+}
+
+[class^="box-"] p {
+    margin: 0;
+}
+
+h1,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+h1 {
+    text-shadow: -1px 1px 2px #778899;
+}
+
+h2 {
+    margin: 0;
+    padding: 10px 0;
+    text-shadow: 1px 0px 1px #778899;
+}
+
+h4 {
+    color: #778899;
+}
+
+h5 {
+    position: absolute;
+    color: rgb(136, 136, 200);
+    font-style: italic;
+    text-transform: lowercase;
+    right: calc(10% + 20px);
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: underline;
+}
+
+.box-photo {
+    margin-top: 30px;
+    background-image: url("./image.jpg");
+    background-size: cover;
+    height: 350px;
+}
+
+.projects a {
+    position: absolute;
+    right: calc(10% + 20px);
+    color: rgb(136, 136, 200);
+    font-style: italic;
+    font-size: 14px;
+    text-transform: lowercase;
+}
+.projects p {
+    margin: 0;
+}
