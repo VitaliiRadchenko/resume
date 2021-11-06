@@ -2,7 +2,7 @@ export const work = [
     {
         vacation: `HR Specialist`,
         place: `(The State Emergency Service of Ukraine)`,
-        date: `June 2018 - now`,
+        date: `June 2018 - October 2021`,
         text: `Maintaining documentation on the acceptance and
         dismissal of employees, change of positions;
         Registration of work books; Maintaining personal
